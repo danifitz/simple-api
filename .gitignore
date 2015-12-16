@@ -1,0 +1,4 @@
+node_modules
+
+# app ‘secret’ config file
+appconfig.js
