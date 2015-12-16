@@ -15,5 +15,5 @@ RUN npm -v
 RUN cd /home && git clone https://github.com/danifitz/simple-api.git
 COPY appconfig.js /home/simple-api/appconfig.js
 RUN cd /home/simple-api && npm install
-EXPOSE 80
+EXPOSE 8080
 CMD ["npm", "start"]
